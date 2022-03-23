@@ -1,0 +1,15 @@
+canvas{
+    border: 3px dashed pink;
+    margin-top: 50px;
+    animation-name: Kaushiki;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes Kaushiki{
+    from{
+        box-shadow: 2px 2px 35px purple;
+    }
+    to{
+     box-shadow: 2px 2px 35px pink;
+ }  
+ }
